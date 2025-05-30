@@ -2,7 +2,7 @@
 
 import React from "react";
 import {
-    BrowserRouter as Router,Routes, Route, Link} from "react-router-dom";
+    HashRouter as Router,Routes, Route, Link} from "react-router-dom";
 import { useState, useEffect } from "react";
 import { FaHome, FaInfoCircle } from 'react-icons/fa';
 import Home from "./pages/Home"
