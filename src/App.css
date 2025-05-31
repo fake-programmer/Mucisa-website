@@ -1,36 +1,10 @@
-:root{
-  --primary:#010135;
-  --secondary:#0505ed;
-  --accent:#f2f2fb;
-  --luxury:#0bedf5;
-  
-}
-.App {
-  text-align: center;
-}
+html {
+      width: 100%;
+      overflow-x: hidden;
+    }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    body {
+      width: 100%;
+      margin: 0; 
+      padding: 0;
+    }

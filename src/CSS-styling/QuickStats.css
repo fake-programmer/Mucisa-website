@@ -32,15 +32,15 @@
 
 .stat-card p {
   font-size: 1.3rem;
-  color: var(--luxury);
+  color: var(--primary);
   font-weight: 900;
 }
 @media (max-width: 768px) and (max-width: 480px) {
 
  .stat-card {
  
-  padding: 0;
-  width: 82px;
+  padding: 10px;
+  width: 85px;
 }
 .stat-card p {
   font-size: 0.7rem;
@@ -48,12 +48,12 @@
   font-weight: 900;
 }
 .stat-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-bottom: 0;
 }
 .stats-grid {
-  gap: 5px;
-  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 4fr));
 }
 }
 

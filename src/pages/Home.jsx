@@ -20,6 +20,7 @@ import RecentActivities from '../components/recentActivities.jsx';
 export default function Home(){
     return(
         <>
+        <div className="home">
          <HeroSection />
          <div>
             <h2>Maseno University computing And Informatics Student Association</h2>
@@ -37,6 +38,7 @@ export default function Home(){
 
         </div>
          <Footer />
+         </div>
         </>
     )
 }

@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Montserrat&family=Outfit&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+      width: 100%;
+      overflow-x: hidden;
+    }
 body {
   margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: none;
+  overflow-x: hidden;
+  width: 100%;
+      margin: 0; 
+      padding: 0;
 }
 
 code {
@@ -25,9 +36,10 @@ header{
 .content{
   margin: 4rem 0 0 0;
 }
-h2 {
+h2{
     text-align: center;
     color: var(--primary);
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav ul {
@@ -49,6 +61,8 @@ nav a {
 
 button {
     display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
     margin: 20px auto;
     padding: 10px 20px;
     background-color: var(--luxury);
@@ -66,7 +80,7 @@ button:hover {
 @media (max-width: 768px) and (max-width: 480px) {
  nav li {
     margin: 5px 10px;
-    font-size: 1.1rem;
+    font-size: 0.98rem;
 }
 header{
   box-shadow: 0 4px 12px #0009130a;
@@ -75,6 +89,14 @@ header{
   box-shadow: 0 4px 12px #00091361;
   z-index: 1000;
 
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-wrap: hidden;
 }
 }
 
