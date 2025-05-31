@@ -60,7 +60,7 @@ const teamMembers = [
   ,
   {
     name: 'Musembi Mutua',
-    role: 'Organizing Secretary',
+    role: 'Org. Secretary',
     photo: mutua,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
@@ -95,9 +95,9 @@ const teamMembers = [
     role: 'TMC representative',
     photo: dd,
      socials: [
-      { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
-      { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaFacebookF />, label: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61551077543227' },
+      { icon: <FaTwitter />, label: 'Twitter', url: 'https://x.com/dez_ezra?t=u5AyR9IHt0LaB84-_kOluw&s=09' },
+      { icon: <FaLinkedin />, label: 'Chat', url: 'https://www.linkedin.com/in/ezra-ndege-578906317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
     ],
   },
   {
