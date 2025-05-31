@@ -4,15 +4,18 @@ import gala2 from '../assets/gala2.jpg'
 import gala3 from '../assets/gala3.jpg'
 import gala4 from '../assets/gala4.jpg'
 import gala5 from '../assets/gala5.jpg'
+import gala6 from '../assets/gala6.jpg'
 import wrric1 from '../assets/wrric1.jpeg'
 import wrric2 from '../assets/wrric2.jpeg'
 import wrric3 from '../assets/wrric3.jpeg'
+import wrric4 from '../assets/wrric4.jpeg'
 import wrric5 from '../assets/wrric5.jpeg'
 import hack1 from '../assets/hack1.jpeg'
 import hack2 from '../assets/hack2.jpeg'
 import hack3 from '../assets/hack3.jpeg'
 import hack4 from '../assets/hack4.jpeg'
 import hack5 from '../assets/hack5.jpeg'
+
 
 
 
@@ -26,6 +29,7 @@ const activities = [
       gala3,
       gala4,
       gala5,
+      gala6,
     ]
   },
   {
@@ -48,6 +52,7 @@ const activities = [
         wrric2,
         wrric3,
         wrric5,
+        wrric4,
 
     ]
   }
