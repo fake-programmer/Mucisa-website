@@ -12,6 +12,7 @@ import Team from '../components/Team.jsx';
 import JoinSection from '../components/JoinSection.jsx';
 import Footer from '../components/footer.jsx';
 import RecentActivities from '../components/recentActivities.jsx';
+import UpcomingEvents from '../components/upcomingEvents.jsx';
 
 
 
@@ -29,6 +30,7 @@ export default function Home(){
                <MissionVision />
             <Programs />
             <RecentActivities />
+            <UpcomingEvents />
             <JoinSection/>
             <div className="section-title">
                 <h2  >Meet our executive Team 2024/25</h2>

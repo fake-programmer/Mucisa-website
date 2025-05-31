@@ -10,6 +10,7 @@ import About from "./pages/About"
 import Team from './components/Team.jsx';
 import Programs from './components/programs.jsx';
 import Hackathons from "./components/hackathons.jsx";
+import Loader from "./components/Loader";
 import { AiFillPhone } from "react-icons/ai";
 
 
@@ -19,15 +20,25 @@ const Company = () => <h2>No Confirmed Partner Yet!</h2>;
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // Simulate loading
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000); 
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+ setIsScrolled(window.scrollY > 50);
     };
+
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
+  if (loading) return <Loader />
 
     return (
         <Router>
