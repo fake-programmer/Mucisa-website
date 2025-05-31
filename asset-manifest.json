@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mucisa-website/static/css/main.972c11ac.css",
+    "main.css": "/Mucisa-website/static/css/main.fdccce4e.css",
     "main.js": "/Mucisa-website/static/js/main.d094e287.js",
     "static/media/gala6.jpg": "/Mucisa-website/static/media/gala6.2027734ef61b93847f57.jpg",
     "static/media/gala3.jpg": "/Mucisa-website/static/media/gala3.421339514c03e866f9ae.jpg",
@@ -34,11 +34,11 @@
     "static/media/hack5.jpeg": "/Mucisa-website/static/media/hack5.b70ec585db07d15f75c4.jpeg",
     "static/media/mutua.jpg": "/Mucisa-website/static/media/mutua.5da71ebb20dbac603ce5.jpg",
     "index.html": "/Mucisa-website/index.html",
-    "main.972c11ac.css.map": "/Mucisa-website/static/css/main.972c11ac.css.map",
+    "main.fdccce4e.css.map": "/Mucisa-website/static/css/main.fdccce4e.css.map",
     "main.d094e287.js.map": "/Mucisa-website/static/js/main.d094e287.js.map"
   },
   "entrypoints": [
-    "static/css/main.972c11ac.css",
+    "static/css/main.fdccce4e.css",
     "static/js/main.d094e287.js"
   ]
 }
