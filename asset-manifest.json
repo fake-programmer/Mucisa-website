@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/Mucisa-website/static/css/main.972c11ac.css",
-    "main.js": "/Mucisa-website/static/js/main.ff481262.js",
+    "main.js": "/Mucisa-website/static/js/main.d094e287.js",
+    "static/media/gala6.jpg": "/Mucisa-website/static/media/gala6.2027734ef61b93847f57.jpg",
+    "static/media/gala3.jpg": "/Mucisa-website/static/media/gala3.421339514c03e866f9ae.jpg",
     "static/media/prince.jpg": "/Mucisa-website/static/media/prince.b6a6bacb0762e398dfc6.jpg",
+    "static/media/gala1.jpg": "/Mucisa-website/static/media/gala1.b95df3d3fe1c63f4a787.jpg",
     "static/media/gala2.jpg": "/Mucisa-website/static/media/gala2.c2e6e4acec0e9d3b2c61.jpg",
-    "static/media/gala3.jpg": "/Mucisa-website/static/media/gala3.334662b99eebb7f4c812.jpg",
     "static/media/gala5.jpg": "/Mucisa-website/static/media/gala5.1251d2ee4dbc967be151.jpg",
-    "static/media/gala1.jpg": "/Mucisa-website/static/media/gala1.9258fe0ddded25c6901f.jpg",
     "static/media/gala4.jpg": "/Mucisa-website/static/media/gala4.5f6e89b9de0bf6e50da0.jpg",
     "static/media/logo.png": "/Mucisa-website/static/media/logo.320ab09f4832cd317fa8.png",
     "static/media/sege.jpg": "/Mucisa-website/static/media/sege.10db5dc8644c2ad39b8b.jpg",
@@ -15,28 +16,29 @@
     "static/media/wairimu.jpg": "/Mucisa-website/static/media/wairimu.27dd19e5754f6c2efc7d.jpg",
     "static/media/Nickson.jpg": "/Mucisa-website/static/media/Nickson.07ebee8ea493c16a1560.jpg",
     "static/media/joel.jpg": "/Mucisa-website/static/media/joel.de0f9d993967aab75d0c.jpg",
-    "static/media/wrric2.jpeg": "/Mucisa-website/static/media/wrric2.1be0134e2d0e1feca4e1.jpeg",
     "static/media/mucisa.jpeg": "/Mucisa-website/static/media/mucisa.660fa2035460bcc284c7.jpeg",
     "static/media/wrric1.jpeg": "/Mucisa-website/static/media/wrric1.660fa2035460bcc284c7.jpeg",
-    "static/media/wrric3.jpeg": "/Mucisa-website/static/media/wrric3.c38b5087d2e26f8535bc.jpeg",
     "static/media/Faima.jpg": "/Mucisa-website/static/media/Faima.0479dce5fe6846bc1a39.jpg",
-    "static/media/wrric5.jpeg": "/Mucisa-website/static/media/wrric5.7a6cf9d4a5493025b7c0.jpeg",
     "static/media/terry.jpg": "/Mucisa-website/static/media/terry.b580989d644bbb27585b.jpg",
+    "static/media/wrric2.jpeg": "/Mucisa-website/static/media/wrric2.a5abaf8dad2d8bf67515.jpeg",
     "static/media/hhh.jpg": "/Mucisa-website/static/media/hhh.e2ac7ecea88fe1c877a5.jpg",
     "static/media/hack3.jpeg": "/Mucisa-website/static/media/hack3.796bd924947566843bc0.jpeg",
     "static/media/hack2.jpeg": "/Mucisa-website/static/media/hack2.784eb67e24273667482b.jpeg",
+    "static/media/wrric3.jpeg": "/Mucisa-website/static/media/wrric3.b472091d633d275fe203.jpeg",
+    "static/media/wrric4.jpeg": "/Mucisa-website/static/media/wrric4.3d301764a7790f143d37.jpeg",
+    "static/media/wrric5.jpeg": "/Mucisa-website/static/media/wrric5.66b6290f5455e4c2bc55.jpeg",
     "static/media/home.jpg": "/Mucisa-website/static/media/home.e1818df90ea87bf5f614.jpg",
     "static/media/dd.png": "/Mucisa-website/static/media/dd.e3b904de4c80e6c3fb58.png",
     "static/media/hack4.jpeg": "/Mucisa-website/static/media/hack4.4d25edbdeae6f550be24.jpeg",
     "static/media/hack1.jpeg": "/Mucisa-website/static/media/hack1.d52ef493f4b57fdf54e6.jpeg",
-    "static/media/hack5.jpeg": "/Mucisa-website/static/media/hack5.fc2abce4ded5c24c3f23.jpeg",
+    "static/media/hack5.jpeg": "/Mucisa-website/static/media/hack5.b70ec585db07d15f75c4.jpeg",
     "static/media/mutua.jpg": "/Mucisa-website/static/media/mutua.5da71ebb20dbac603ce5.jpg",
     "index.html": "/Mucisa-website/index.html",
     "main.972c11ac.css.map": "/Mucisa-website/static/css/main.972c11ac.css.map",
-    "main.ff481262.js.map": "/Mucisa-website/static/js/main.ff481262.js.map"
+    "main.d094e287.js.map": "/Mucisa-website/static/js/main.d094e287.js.map"
   },
   "entrypoints": [
     "static/css/main.972c11ac.css",
-    "static/js/main.ff481262.js"
+    "static/js/main.d094e287.js"
   ]
 }
