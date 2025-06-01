@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaFacebookF, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaInstagramSquare, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import {SiX} from 'react-icons/si'
 import '../CSS-styling/Team.css';
 import dd from '../assets/dd.png'
 import hhh from '../assets/hhh.jpg'
@@ -24,8 +25,9 @@ const teamMembers = [
     photo: Faima,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: '#' },
       { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   },
   {
@@ -34,8 +36,9 @@ const teamMembers = [
     photo: Nickson,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: 'https://x.com/nickChester10?s=09' },
       { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   },
   {
@@ -44,8 +47,9 @@ const teamMembers = [
     photo: wairimu,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: '#' },
       { icon: <FaLinkedin/>, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   },{
     name: 'George Bryzon',
@@ -53,8 +57,9 @@ const teamMembers = [
     photo: George,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: '#' },
       { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   }
   ,
@@ -64,8 +69,9 @@ const teamMembers = [
     photo: mutua,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: 'https://www.facebook.com/share/1ELsHQ9Bz9/' },
-      { icon: <FaTwitter />, label: 'Twitter', url: 'https://x.com/musembimut25117?t=fR80Pa4-_JWUWEKgl4OFUw&s=09' },
+      { icon: <SiX />, label: 'Twitter', url: 'https://x.com/musembimut25117?t=fR80Pa4-_JWUWEKgl4OFUw&s=09' },
       { icon: <FaLinkedin />, label: 'Chat', url: 'https://www.linkedin.com/in/musembi-mutua-921b102a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   }
   ,
@@ -75,8 +81,9 @@ const teamMembers = [
     photo: joel,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: '#' },
       { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   }
   ,
@@ -86,8 +93,9 @@ const teamMembers = [
     photo: prince,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: '#' },
       { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   },
   {
@@ -96,8 +104,9 @@ const teamMembers = [
     photo: dd,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61551077543227' },
-      { icon: <FaTwitter />, label: 'Twitter', url: 'https://x.com/dez_ezra?t=u5AyR9IHt0LaB84-_kOluw&s=09' },
+      { icon: <SiX />, label: 'Twitter', url: 'https://x.com/dez_ezra?t=u5AyR9IHt0LaB84-_kOluw&s=09' },
       { icon: <FaLinkedin />, label: 'Chat', url: 'https://www.linkedin.com/in/ezra-ndege-578906317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   },
   {
@@ -106,8 +115,9 @@ const teamMembers = [
     photo: jewel,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: '#' },
       { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   },
   
@@ -117,8 +127,9 @@ const teamMembers = [
     photo: terry,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: '#' },
       { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   },
   {
@@ -127,8 +138,9 @@ const teamMembers = [
     photo: sege,
      socials: [
       { icon: <FaFacebookF />, label: 'Facebook', url: '#' },
-      { icon: <FaTwitter />, label: 'Twitter', url: '#' },
+      { icon: <SiX />, label: 'Twitter', url: '#' },
       { icon: <FaLinkedin />, label: 'Chat', url: '#' },
+      { icon: <FaInstagram/>, label: 'Chat', url: '#' }
     ],
   },
   // Add more members as needed

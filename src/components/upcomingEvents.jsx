@@ -16,28 +16,21 @@ const formatDate = (dateString) => {
 const eventsData = [
   {
     id: 1,
-    date: '2025-07-15',
+    date: '2025-05-18',
     startTime: '14:00',
     endTime: '17:00',
-    venue: 'Grand Hall, City Center',
-    description: 'Join us for an exciting afternoon of talks, networking, and refreshments.',
+    venue: 'Amphitheatre Maseno university',
+    description: 'Join us for an exciting AI summit that will last for 3 days. we will learn on how AI impacts politics and social life.',
   },
   {
     id: 2,
     date: '2025-07-22',
-    startTime: '09:00',
-    endTime: '12:00',
-    venue: 'Community Park Amphitheater',
-    description: 'Outdoor workshop focusing on sustainable gardening and urban farming.',
+    startTime: '08:00',
+    endTime: '16:00',
+    venue: 'Maseno Market',
+    description: 'Outdoor Market cleaning and local sensitiztion.',
   },
-  {
-    id: 3,
-    date: '2025-08-01',
-    startTime: '18:30',
-    endTime: '21:00',
-    venue: 'Downtown Conference Center',
-    description: 'Evening seminar on the latest trends in technology and innovation.',
-  },
+  
 ];
 
 const UpcomingEvents = () => {

@@ -7,6 +7,8 @@ import { useState, useEffect } from "react";
 import { FaHome, FaInfoCircle } from 'react-icons/fa';
 import Home from "./pages/Home"
 import About from "./pages/About"
+import Contact from "./pages/contact.jsx"
+import SupportPage from "./pages/support.jsx"
 import Team from './components/Team.jsx';
 import Programs from './components/programs.jsx';
 import Hackathons from "./components/hackathons.jsx";
@@ -14,8 +16,8 @@ import Loader from "./components/Loader";
 import { AiFillPhone } from "react-icons/ai";
 
 
-const Contact = () => <h2>Contact Page</h2>;
-const Support = () => <h2>This is support Page...its still under maintainance</h2>;
+
+
 const Company = () => <h2>No Confirmed Partner Yet!</h2>;
 
 function App() {
@@ -72,7 +74,7 @@ function App() {
                 <Route path="programs" element={<Programs/>} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="hackathon" element={<Hackathons />} />
-                <Route path="support" element={<Support />} />
+                <Route path="support" element={<SupportPage/>} />
             </Routes>
           </div>   
          
