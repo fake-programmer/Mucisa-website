@@ -69,7 +69,7 @@ const RecentActivities = () => {
           <p>{activity.description}</p>
           <div className="masonry-gallery">
             {activity.images.map((img, i) => (
-              <img key={i} src={img} alt={activity & {i}} />
+              <img key={i} src={img} alt="about" />
             ))}
           </div>
         </div>
